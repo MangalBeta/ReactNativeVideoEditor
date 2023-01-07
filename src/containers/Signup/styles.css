@@ -1,0 +1,10 @@
+.smallMainStyle {
+    box-sizing: border-box;
+    /* background: linear-gradient(187.45deg, #2EB3FF 5.84%, #0066FE 106.19%); */
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.22);
+    border-top-width: 1;
+    border-left-width: 1;
+    border-right-width: 1;
+    border-color: aqua;
+    background-color: #0066FE;
+  }

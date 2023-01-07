@@ -1,0 +1,17 @@
+{
+  "name": "ve-sdk-react-native-integration-sample",
+  "displayName": "ve-sdk-react-native-integration-sample",
+  "expo": {
+    "name": "ve-sdk-react-native-integration-sample",
+    "slug": "ve-sdk-react-native-integration-sample",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "css"]
+    }
+    
+  }
+}

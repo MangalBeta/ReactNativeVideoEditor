@@ -1,0 +1,7 @@
+.focusButton {
+    background: #5D6175;
+    backdrop-filter: blur(10.3481px);
+    border-color: rgba(255, 255, 255, 0.2);
+
+    border-width: 1px;
+}

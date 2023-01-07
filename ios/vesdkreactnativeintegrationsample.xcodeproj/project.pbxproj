@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C885727AF7E173C1E9AEB9F /* libPods-vesdkreactnativeintegrationsample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88618F35E71F79A1FDDBAC34 /* libPods-vesdkreactnativeintegrationsample.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		357D8FAA18B5F9BC6F6E00DC /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721866BBB410097E17A4D5F3 /* ExpoModulesProvider.swift */; };
+		386FAD412897A70100E22B93 /* applanga_settings.applanga in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD352897A6D700E22B93 /* applanga_settings.applanga */; };
+		386FAD422897A70100E22B93 /* DAGGERSQUARE OBLIQUE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD3D2897A6D700E22B93 /* DAGGERSQUARE OBLIQUE.otf */; };
+		386FAD432897A70100E22B93 /* DAGGERSQUARE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD302897A6D600E22B93 /* DAGGERSQUARE.otf */; };
+		386FAD442897A70100E22B93 /* Radomir Tinkov - Gilroy-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD3B2897A6D700E22B93 /* Radomir Tinkov - Gilroy-Black.otf */; };
+		386FAD452897A70100E22B93 /* Radomir Tinkov - Gilroy-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD382897A6D700E22B93 /* Radomir Tinkov - Gilroy-BlackItalic.otf */; };
+		386FAD462897A70100E22B93 /* Radomir Tinkov - Gilroy-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD2B2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Bold.otf */; };
+		386FAD472897A70100E22B93 /* Radomir Tinkov - Gilroy-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD362897A6D700E22B93 /* Radomir Tinkov - Gilroy-BoldItalic.otf */; };
+		386FAD482897A70100E22B93 /* Radomir Tinkov - Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD3F2897A6D700E22B93 /* Radomir Tinkov - Gilroy-ExtraBold.otf */; };
+		386FAD492897A70100E22B93 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD2D2897A6D600E22B93 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */; };
+		386FAD4A2897A70100E22B93 /* Radomir Tinkov - Gilroy-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD322897A6D600E22B93 /* Radomir Tinkov - Gilroy-Heavy.otf */; };
+		386FAD4B2897A70100E22B93 /* Radomir Tinkov - Gilroy-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD3C2897A6D700E22B93 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */; };
+		386FAD4C2897A70100E22B93 /* Radomir Tinkov - Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD3E2897A6D700E22B93 /* Radomir Tinkov - Gilroy-Light.otf */; };
+		386FAD4D2897A70100E22B93 /* Radomir Tinkov - Gilroy-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD372897A6D700E22B93 /* Radomir Tinkov - Gilroy-LightItalic.otf */; };
+		386FAD4E2897A70100E22B93 /* Radomir Tinkov - Gilroy-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD392897A6D700E22B93 /* Radomir Tinkov - Gilroy-Medium.otf */; };
+		386FAD4F2897A70100E22B93 /* Radomir Tinkov - Gilroy-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD312897A6D600E22B93 /* Radomir Tinkov - Gilroy-MediumItalic.otf */; };
+		386FAD502897A70100E22B93 /* Radomir Tinkov - Gilroy-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD2A2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Regular.otf */; };
+		386FAD512897A70100E22B93 /* Radomir Tinkov - Gilroy-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD2F2897A6D600E22B93 /* Radomir Tinkov - Gilroy-RegularItalic.otf */; };
+		386FAD522897A70100E22B93 /* Radomir Tinkov - Gilroy-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD2E2897A6D600E22B93 /* Radomir Tinkov - Gilroy-SemiBold.otf */; };
+		386FAD532897A70100E22B93 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD332897A6D600E22B93 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */; };
+		386FAD542897A70100E22B93 /* Radomir Tinkov - Gilroy-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD2C2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Thin.otf */; };
+		386FAD552897A70100E22B93 /* Radomir Tinkov - Gilroy-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD342897A6D600E22B93 /* Radomir Tinkov - Gilroy-ThinItalic.otf */; };
+		386FAD562897A70100E22B93 /* Radomir Tinkov - Gilroy-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD402897A6D700E22B93 /* Radomir Tinkov - Gilroy-UltraLight.otf */; };
+		386FAD572897A70100E22B93 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 386FAD3A2897A6D700E22B93 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */; };
+		38FE25DA289AACEF00DF7E6A /* swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE25D9289AACEF00DF7E6A /* swift.swift */; };
+		38FE25DE289AAF2B00DF7E6A /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FE25DD289AAF2B00DF7E6A /* SplashScreen.storyboard */; };
+		5111FDD328772B73004C3BBB /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 5111FDD228772B72004C3BBB /* Music */; };
+		5196245526B7F8EE00434846 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5196245726B7F8EE00434846 /* Localizable.strings */; };
+		63485D4C259A27A900A9897F /* VideoEditorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63485D4B259A27A900A9897F /* VideoEditorModule.swift */; };
+		63485D51259A29CB00A9897F /* VideoEditorModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 63485D50259A29CB00A9897F /* VideoEditorModuleBridge.m */; };
+		8A26A81F259B69A5001CFF3C /* luts in Resources */ = {isa = PBXBuildFile; fileRef = 8A26A81D259B69A5001CFF3C /* luts */; };
+		8A26A820259B69A5001CFF3C /* bundleEffects in Resources */ = {isa = PBXBuildFile; fileRef = 8A26A81E259B69A5001CFF3C /* bundleEffects */; };
+		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* vesdkreactnativeintegrationsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vesdkreactnativeintegrationsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vesdkreactnativeintegrationsample/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = vesdkreactnativeintegrationsample/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vesdkreactnativeintegrationsample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vesdkreactnativeintegrationsample/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vesdkreactnativeintegrationsample/main.m; sourceTree = "<group>"; };
+		386FAD2A2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Regular.otf"; sourceTree = "<group>"; };
+		386FAD2B2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Bold.otf"; sourceTree = "<group>"; };
+		386FAD2C2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Thin.otf"; sourceTree = "<group>"; };
+		386FAD2D2897A6D600E22B93 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		386FAD2E2897A6D600E22B93 /* Radomir Tinkov - Gilroy-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-SemiBold.otf"; sourceTree = "<group>"; };
+		386FAD2F2897A6D600E22B93 /* Radomir Tinkov - Gilroy-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-RegularItalic.otf"; sourceTree = "<group>"; };
+		386FAD302897A6D600E22B93 /* DAGGERSQUARE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DAGGERSQUARE.otf; sourceTree = "<group>"; };
+		386FAD312897A6D600E22B93 /* Radomir Tinkov - Gilroy-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-MediumItalic.otf"; sourceTree = "<group>"; };
+		386FAD322897A6D600E22B93 /* Radomir Tinkov - Gilroy-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Heavy.otf"; sourceTree = "<group>"; };
+		386FAD332897A6D600E22B93 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		386FAD342897A6D600E22B93 /* Radomir Tinkov - Gilroy-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ThinItalic.otf"; sourceTree = "<group>"; };
+		386FAD352897A6D700E22B93 /* applanga_settings.applanga */ = {isa = PBXFileReference; lastKnownFileType = file; path = applanga_settings.applanga; sourceTree = "<group>"; };
+		386FAD362897A6D700E22B93 /* Radomir Tinkov - Gilroy-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-BoldItalic.otf"; sourceTree = "<group>"; };
+		386FAD372897A6D700E22B93 /* Radomir Tinkov - Gilroy-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-LightItalic.otf"; sourceTree = "<group>"; };
+		386FAD382897A6D700E22B93 /* Radomir Tinkov - Gilroy-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-BlackItalic.otf"; sourceTree = "<group>"; };
+		386FAD392897A6D700E22B93 /* Radomir Tinkov - Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		386FAD3A2897A6D700E22B93 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		386FAD3B2897A6D700E22B93 /* Radomir Tinkov - Gilroy-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Black.otf"; sourceTree = "<group>"; };
+		386FAD3C2897A6D700E22B93 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-HeavyItalic.otf"; sourceTree = "<group>"; };
+		386FAD3D2897A6D700E22B93 /* DAGGERSQUARE OBLIQUE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DAGGERSQUARE OBLIQUE.otf"; sourceTree = "<group>"; };
+		386FAD3E2897A6D700E22B93 /* Radomir Tinkov - Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-Light.otf"; sourceTree = "<group>"; };
+		386FAD3F2897A6D700E22B93 /* Radomir Tinkov - Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		386FAD402897A6D700E22B93 /* Radomir Tinkov - Gilroy-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Radomir Tinkov - Gilroy-UltraLight.otf"; sourceTree = "<group>"; };
+		386FAD5828980C6600E22B93 /* vesdkreactnativeintegrationsampleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = vesdkreactnativeintegrationsampleRelease.entitlements; path = vesdkreactnativeintegrationsample/vesdkreactnativeintegrationsampleRelease.entitlements; sourceTree = "<group>"; };
+		38FE25D9289AACEF00DF7E6A /* swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift.swift; sourceTree = "<group>"; };
+		38FE25DD289AAF2B00DF7E6A /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = vesdkreactnativeintegrationsample/SplashScreen.storyboard; sourceTree = "<group>"; };
+		38FE25DF289AAF4300DF7E6A /* vesdkreactnativeintegrationsample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "vesdkreactnativeintegrationsample-Bridging-Header.h"; sourceTree = "<group>"; };
+		5111FDD228772B72004C3BBB /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		5196245626B7F8EE00434846 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63485D4B259A27A900A9897F /* VideoEditorModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorModule.swift; sourceTree = "<group>"; };
+		63485D50259A29CB00A9897F /* VideoEditorModuleBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditorModuleBridge.m; sourceTree = "<group>"; };
+		721866BBB410097E17A4D5F3 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-vesdkreactnativeintegrationsample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		88618F35E71F79A1FDDBAC34 /* libPods-vesdkreactnativeintegrationsample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vesdkreactnativeintegrationsample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A26A81D259B69A5001CFF3C /* luts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = luts; path = vesdkreactnativeintegrationsample/luts; sourceTree = "<group>"; };
+		8A26A81E259B69A5001CFF3C /* bundleEffects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = bundleEffects; path = vesdkreactnativeintegrationsample/bundleEffects; sourceTree = "<group>"; };
+		8C89D92F9688A95A4FDD7414 /* Pods-vesdkreactnativeintegrationsample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vesdkreactnativeintegrationsample.debug.xcconfig"; path = "Target Support Files/Pods-vesdkreactnativeintegrationsample/Pods-vesdkreactnativeintegrationsample.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		DE5E43D3ED20A4AE82CEB804 /* Pods-vesdkreactnativeintegrationsample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vesdkreactnativeintegrationsample.release.xcconfig"; path = "Target Support Files/Pods-vesdkreactnativeintegrationsample/Pods-vesdkreactnativeintegrationsample.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C885727AF7E173C1E9AEB9F /* libPods-vesdkreactnativeintegrationsample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* vesdkreactnativeintegrationsample */ = {
+			isa = PBXGroup;
+			children = (
+				38FE25DF289AAF4300DF7E6A /* vesdkreactnativeintegrationsample-Bridging-Header.h */,
+				38FE25DD289AAF2B00DF7E6A /* SplashScreen.storyboard */,
+				386FAD5828980C6600E22B93 /* vesdkreactnativeintegrationsampleRelease.entitlements */,
+				8A26A81E259B69A5001CFF3C /* bundleEffects */,
+				8A26A81D259B69A5001CFF3C /* luts */,
+				5111FDD228772B72004C3BBB /* Music */,
+				BB2F792B24A3F905000567C9 /* Supporting */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				63485D4B259A27A900A9897F /* VideoEditorModule.swift */,
+				63485D50259A29CB00A9897F /* VideoEditorModuleBridge.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				38FE25D9289AACEF00DF7E6A /* swift.swift */,
+			);
+			name = vesdkreactnativeintegrationsample;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				88618F35E71F79A1FDDBAC34 /* libPods-vesdkreactnativeintegrationsample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		386FAD292897A67F00E22B93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				386FAD352897A6D700E22B93 /* applanga_settings.applanga */,
+				386FAD3D2897A6D700E22B93 /* DAGGERSQUARE OBLIQUE.otf */,
+				386FAD302897A6D600E22B93 /* DAGGERSQUARE.otf */,
+				386FAD3B2897A6D700E22B93 /* Radomir Tinkov - Gilroy-Black.otf */,
+				386FAD382897A6D700E22B93 /* Radomir Tinkov - Gilroy-BlackItalic.otf */,
+				386FAD2B2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Bold.otf */,
+				386FAD362897A6D700E22B93 /* Radomir Tinkov - Gilroy-BoldItalic.otf */,
+				386FAD3F2897A6D700E22B93 /* Radomir Tinkov - Gilroy-ExtraBold.otf */,
+				386FAD2D2897A6D600E22B93 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf */,
+				386FAD322897A6D600E22B93 /* Radomir Tinkov - Gilroy-Heavy.otf */,
+				386FAD3C2897A6D700E22B93 /* Radomir Tinkov - Gilroy-HeavyItalic.otf */,
+				386FAD3E2897A6D700E22B93 /* Radomir Tinkov - Gilroy-Light.otf */,
+				386FAD372897A6D700E22B93 /* Radomir Tinkov - Gilroy-LightItalic.otf */,
+				386FAD392897A6D700E22B93 /* Radomir Tinkov - Gilroy-Medium.otf */,
+				386FAD312897A6D600E22B93 /* Radomir Tinkov - Gilroy-MediumItalic.otf */,
+				386FAD2A2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Regular.otf */,
+				386FAD2F2897A6D600E22B93 /* Radomir Tinkov - Gilroy-RegularItalic.otf */,
+				386FAD2E2897A6D600E22B93 /* Radomir Tinkov - Gilroy-SemiBold.otf */,
+				386FAD332897A6D600E22B93 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf */,
+				386FAD2C2897A6D600E22B93 /* Radomir Tinkov - Gilroy-Thin.otf */,
+				386FAD342897A6D600E22B93 /* Radomir Tinkov - Gilroy-ThinItalic.otf */,
+				386FAD402897A6D700E22B93 /* Radomir Tinkov - Gilroy-UltraLight.otf */,
+				386FAD3A2897A6D700E22B93 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				386FAD292897A67F00E22B93 /* Resources */,
+				5196245726B7F8EE00434846 /* Localizable.strings */,
+				13B07FAE1A68108700A75B9A /* vesdkreactnativeintegrationsample */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D65327D7A22EEC0BE12398D9 /* Pods */,
+				E9C097D22F18EFF198BA1F22 /* ExpoModulesProviders */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* vesdkreactnativeintegrationsample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2F792B24A3F905000567C9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792C24A3F905000567C9 /* Expo.plist */,
+			);
+			name = Supporting;
+			path = vesdkreactnativeintegrationsample/Supporting;
+			sourceTree = "<group>";
+		};
+		D65327D7A22EEC0BE12398D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C89D92F9688A95A4FDD7414 /* Pods-vesdkreactnativeintegrationsample.debug.xcconfig */,
+				DE5E43D3ED20A4AE82CEB804 /* Pods-vesdkreactnativeintegrationsample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9C097D22F18EFF198BA1F22 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				FD0D1D9F508A28517A351899 /* vesdkreactnativeintegrationsample */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		FD0D1D9F508A28517A351899 /* vesdkreactnativeintegrationsample */ = {
+			isa = PBXGroup;
+			children = (
+				721866BBB410097E17A4D5F3 /* ExpoModulesProvider.swift */,
+			);
+			name = vesdkreactnativeintegrationsample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* vesdkreactnativeintegrationsample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vesdkreactnativeintegrationsample" */;
+			buildPhases = (
+				AB0591765951FDEE134E0555 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4E3517C4954B401A3A894837 /* [CP] Embed Pods Frameworks */,
+				52D3468520D2248A09103529 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vesdkreactnativeintegrationsample;
+			productName = vesdkreactnativeintegrationsample;
+			productReference = 13B07F961A680F5B00A75B9A /* vesdkreactnativeintegrationsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 6YS88B6YDM;
+						LastSwiftMigration = 1230;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vesdkreactnativeintegrationsample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* vesdkreactnativeintegrationsample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386FAD412897A70100E22B93 /* applanga_settings.applanga in Resources */,
+				386FAD422897A70100E22B93 /* DAGGERSQUARE OBLIQUE.otf in Resources */,
+				386FAD432897A70100E22B93 /* DAGGERSQUARE.otf in Resources */,
+				386FAD442897A70100E22B93 /* Radomir Tinkov - Gilroy-Black.otf in Resources */,
+				386FAD452897A70100E22B93 /* Radomir Tinkov - Gilroy-BlackItalic.otf in Resources */,
+				386FAD462897A70100E22B93 /* Radomir Tinkov - Gilroy-Bold.otf in Resources */,
+				386FAD472897A70100E22B93 /* Radomir Tinkov - Gilroy-BoldItalic.otf in Resources */,
+				386FAD482897A70100E22B93 /* Radomir Tinkov - Gilroy-ExtraBold.otf in Resources */,
+				386FAD492897A70100E22B93 /* Radomir Tinkov - Gilroy-ExtraBoldItalic.otf in Resources */,
+				386FAD4A2897A70100E22B93 /* Radomir Tinkov - Gilroy-Heavy.otf in Resources */,
+				386FAD4B2897A70100E22B93 /* Radomir Tinkov - Gilroy-HeavyItalic.otf in Resources */,
+				386FAD4C2897A70100E22B93 /* Radomir Tinkov - Gilroy-Light.otf in Resources */,
+				386FAD4D2897A70100E22B93 /* Radomir Tinkov - Gilroy-LightItalic.otf in Resources */,
+				386FAD4E2897A70100E22B93 /* Radomir Tinkov - Gilroy-Medium.otf in Resources */,
+				386FAD4F2897A70100E22B93 /* Radomir Tinkov - Gilroy-MediumItalic.otf in Resources */,
+				386FAD502897A70100E22B93 /* Radomir Tinkov - Gilroy-Regular.otf in Resources */,
+				386FAD512897A70100E22B93 /* Radomir Tinkov - Gilroy-RegularItalic.otf in Resources */,
+				386FAD522897A70100E22B93 /* Radomir Tinkov - Gilroy-SemiBold.otf in Resources */,
+				386FAD532897A70100E22B93 /* Radomir Tinkov - Gilroy-SemiBoldItalic.otf in Resources */,
+				386FAD542897A70100E22B93 /* Radomir Tinkov - Gilroy-Thin.otf in Resources */,
+				38FE25DE289AAF2B00DF7E6A /* SplashScreen.storyboard in Resources */,
+				386FAD552897A70100E22B93 /* Radomir Tinkov - Gilroy-ThinItalic.otf in Resources */,
+				386FAD562897A70100E22B93 /* Radomir Tinkov - Gilroy-UltraLight.otf in Resources */,
+				386FAD572897A70100E22B93 /* Radomir Tinkov - Gilroy-UltraLightItalic.otf in Resources */,
+				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5196245526B7F8EE00434846 /* Localizable.strings in Resources */,
+				8A26A81F259B69A5001CFF3C /* luts in Resources */,
+				5111FDD328772B73004C3BBB /* Music in Resources */,
+				8A26A820259B69A5001CFF3C /* bundleEffects in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n../node_modules/expo-constants/scripts/get-app-config-ios.sh\n";
+		};
+		4E3517C4954B401A3A894837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vesdkreactnativeintegrationsample/Pods-vesdkreactnativeintegrationsample-frameworks.sh",
+				"${PODS_ROOT}/Applanga/Applanga.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BNBLicenseUtils/BNBLicenseUtils.framework/BNBLicenseUtils",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaARCloudSDK/BanubaARCloudSDK.framework/BanubaARCloudSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaAudioBrowserSDK/BanubaAudioBrowserSDK.framework/BanubaAudioBrowserSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaEffectPlayer/BanubaEffectPlayer.framework/BanubaEffectPlayer",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaLicenseServicingSDK/BanubaLicenseServicingSDK.framework/BanubaLicenseServicingSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaMusicEditorSDK/BanubaMusicEditorSDK.framework/BanubaMusicEditorSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaOverlayEditorSDK/BanubaOverlayEditorSDK.framework/BanubaOverlayEditorSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaSDK/BanubaSdk.framework/BanubaSdk",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaSDKServicing/BanubaSDKServicing.framework/BanubaSDKServicing",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaSDKSimple/BanubaSdkSimple.framework/BanubaSdkSimple",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaUtilities/BanubaUtilities.framework/BanubaUtilities",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaVideoEditorGallerySDK/BanubaVideoEditorGallerySDK.framework/BanubaVideoEditorGallerySDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaVideoEditorSDK/BanubaVideoEditorSDK.framework/BanubaVideoEditorSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BanubaVideoEditorTrimSDK/BanubaVideoEditorTrimSDK.framework/BanubaVideoEditorTrimSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/VEEffectsSDK/VEEffectsSDK.framework/VEEffectsSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/VEExportSDK/VEExportSDK.framework/VEExportSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/VEPlaybackSDK/VEPlaybackSDK.framework/VEPlaybackSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/VideoEditor/VideoEditor.framework/VideoEditor",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Applanga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BNBLicenseUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaARCloudSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaAudioBrowserSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaEffectPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaLicenseServicingSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaMusicEditorSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaOverlayEditorSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaSDKServicing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaSdkSimple.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaVideoEditorGallerySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaVideoEditorSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BanubaVideoEditorTrimSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VEEffectsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VEExportSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VEPlaybackSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VideoEditor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vesdkreactnativeintegrationsample/Pods-vesdkreactnativeintegrationsample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D3468520D2248A09103529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vesdkreactnativeintegrationsample/Pods-vesdkreactnativeintegrationsample-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vesdkreactnativeintegrationsample/Pods-vesdkreactnativeintegrationsample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0591765951FDEE134E0555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vesdkreactnativeintegrationsample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				63485D51259A29CB00A9897F /* VideoEditorModuleBridge.m in Sources */,
+				38FE25DA289AACEF00DF7E6A /* swift.swift in Sources */,
+				63485D4C259A27A900A9897F /* VideoEditorModule.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				357D8FAA18B5F9BC6F6E00DC /* ExpoModulesProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = vesdkreactnativeintegrationsample;
+			sourceTree = "<group>";
+		};
+		5196245726B7F8EE00434846 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5196245626B7F8EE00434846 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C89D92F9688A95A4FDD7414 /* Pods-vesdkreactnativeintegrationsample.debug.xcconfig */;
+			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6YS88B6YDM;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = vesdkreactnativeintegrationsample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fivvia;
+				PRODUCT_NAME = vesdkreactnativeintegrationsample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "vesdkreactnativeintegrationsample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5E43D3ED20A4AE82CEB804 /* Pods-vesdkreactnativeintegrationsample.release.xcconfig */;
+			buildSettings = {
+				APPLY_RULES_IN_COPY_HEADERS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = vesdkreactnativeintegrationsample/vesdkreactnativeintegrationsampleRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6YS88B6YDM;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = vesdkreactnativeintegrationsample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fivvia;
+				PRODUCT_NAME = vesdkreactnativeintegrationsample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "vesdkreactnativeintegrationsample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vesdkreactnativeintegrationsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vesdkreactnativeintegrationsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
